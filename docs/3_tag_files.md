@@ -1,3 +1,6 @@
+<!-- Link global solarized theme -->
+<link rel="stylesheet" href="./assets/css/style.css">
+
 [← Home](./index.md) | [⬅ Previous](./2_scan_directory.md) | [➡ Next](./4_generate_html.md)
 # 🏷️ Step 3: Tag Files Based on Filename
 

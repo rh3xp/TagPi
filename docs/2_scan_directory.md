@@ -1,5 +1,7 @@
-[← Home](./index.md) | [⬅ Previous](./1_setup_llm.md) | [➡ Next](./3_tag_files.md)
+<!-- Link global solarized theme -->
+<link rel="stylesheet" href="./assets/css/style.css">
 
+[← Home](./index.md) | [⬅ Previous](./1_setup_llm.md) | [➡ Next](./3_tag_files.md)
 # 📂 Step 2: Scan Directory and Extract Metadata
 
 ```python

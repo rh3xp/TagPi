@@ -1,5 +1,7 @@
-[← Home](./index.md) | [➡ Next](./2_scan_directory.md)
+<!-- Link global solarized theme -->
+<link rel="stylesheet" href="./assets/css/style.css">
 
+[← Home](./index.md) | [➡ Next](./2_scan_directory.md)
 # 🛠 Step 1: Setup Lightweight LLM on Raspberry Pi 4
 
 Install dependencies:

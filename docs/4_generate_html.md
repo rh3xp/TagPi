@@ -1,3 +1,6 @@
+<!-- Link global solarized theme -->
+<link rel="stylesheet" href="./assets/css/style.css">
+
 [← Home](./index.md) | [⬅ Previous](./3_tag_files.md) | [➡ Next](./5_move_files.md)
 # 🌐 Step 4: Generate Static HTML View
 

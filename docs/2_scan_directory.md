@@ -1,3 +1,5 @@
+[← Home](./index.md) | [⬅ Previous](./1_setup_llm.md) | [➡ Next](./3_tag_files.md)
+
 # 📂 Step 2: Scan Directory and Extract Metadata
 
 ```python
@@ -35,3 +37,4 @@ if __name__ == "__main__":
 ```
 
 ---
+[← Home](./index.md) | [⬅ Previous](./1_setup_llm.md) | [➡ Next](./3_tag_files.md)

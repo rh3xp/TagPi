@@ -1,3 +1,4 @@
+[← Home](./index.md) | [⬅ Previous](./4_generate_html.md)
 # 🚚 Step 5: Move Files to New Tagged Structure
 
 ```python
@@ -31,6 +32,7 @@ for _, row in df.iterrows():
 print(f"✅ Files moved to '{DEST_ROOT}' directory")
 ```
 
----
-
 ✅ You now have a complete open-source LLM-assisted file organizer ready to deploy on Raspberry Pi.
+
+---
+[← Home](./index.md) | [⬅ Previous](./4_generate_html.md)

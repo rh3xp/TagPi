@@ -33,45 +33,47 @@ This documentation walks through building **TagPi**, a lightweight open-source L
 ```bash
 tagpi/
 ├── README.md
-├── index.md
-├── 1_setup_llm.md
-├── 2_scan_directory.md
-├── 3_tag_files.md
-├── 4_generate_html.md
-├── 5_move_files.md
-├── scripts/
-│   ├── scan_directory.py
-│   ├── tag_generator.py
-│   ├── html_generator.py
-│   ├── file_mover.py
-│   └── utils.py
-├── data/
-│   └── file_index.csv
-├── templates/
-│   └── structure_template.html
-└── output/
-    └── final_structure.html
+├── documentation/
+│   ├── index.md
+│   ├── 1_setup_llm.md
+│   ├── 2_scan_directory.md
+│   ├── 3_tag_files.md
+│   ├── 4_generate_html.md
+│   └── 5_move_files.md
+├── src/
+│   ├── scripts/
+│   │   ├── scan_directory.py
+│   │   ├── tag_generator.py
+│   │   ├── html_generator.py
+│   │   ├── file_mover.py
+│   │   └── utils.py
+│   ├── data/
+│   │   └── file_index.csv
+│   ├── templates/
+│   │   └── structure_template.html
+│   └── output/
+│       └── final_structure.html
 ```
 
 ---
 
-## 🔗 Linked Documentation
+## 🧭 TagPi Documentation Index
 
-* [Step 1: Setup Lightweight LLM](1_setup_llm.md)
-* [Step 2: Scan and Log Folder Structure](2_scan_directory.md)
-* [Step 3: Generate Tags and Labels](3_tag_files.md)
-* [Step 4: Render Static HTML Page](4_generate_html.md)
-* [Step 5: Move Files to New Structure](5_move_files.md)
+Welcome to the **TagPi** documentation! This index links to all major components of the project.
+
+### 📚 Modules
+
+- [📁 Overview and Architecture](./index.md)
+- [🛠 Step 1: Setup Lightweight LLM](./1_setup_llm.md)
+- [📂 Step 2: Scan Directory and Extract Metadata](./2_scan_directory.md)
+- [🏷️ Step 3: Tag Files Based on Filename](./3_tag_files.md)
+- [🌐 Step 4: Generate Static HTML View](./4_generate_html.md)
+- [🚚 Step 5: Move Files to New Tagged Structure](./5_move_files.md)
+
+### 🔗 Related Files
+
+- [README.md](../README.md)
+- [HTML Template Preview](../src/output/final_structure.html)
+- [Raw File Index (CSV)](../src/data/file_index.csv)
 
 ---
-
-## ✅ Final Output Includes:
-
-* `data/file_index.csv`: Raw file metadata and tags
-* `output/final_structure.html`: Preview of organized structure
-* All modular Python scripts in `scripts/`
-* Ready-to-push structure for GitHub + docs
-
----
-
-👉 Now continue to: [1\_setup\_llm.md](1_setup_llm.md)

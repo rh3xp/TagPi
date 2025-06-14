@@ -1,3 +1,4 @@
+[← Home](./index.md) | [⬅ Previous](./2_scan_directory.md) | [➡ Next](./4_generate_html.md)
 # 🏷️ Step 3: Tag Files Based on Filename
 
 ```python
@@ -22,3 +23,6 @@ df['tag'] = get_clusters(embeddings)
 df.to_csv('src/data/file_index.csv', index=False, encoding='utf-8-sig')
 print("✅ Tags added to src/data/file_index.csv")
 ```
+
+---
+[← Home](./index.md) | [⬅ Previous](./2_scan_directory.md) | [➡ Next](./4_generate_html.md)

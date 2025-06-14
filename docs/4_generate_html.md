@@ -1,3 +1,4 @@
+[← Home](./index.md) | [⬅ Previous](./3_tag_files.md) | [➡ Next](./5_move_files.md)
 # 🌐 Step 4: Generate Static HTML View
 
 `src/templates/structure_template.html`
@@ -16,6 +17,7 @@
   </style>
 </head>
 <body>
+  {% raw %}
   <h1>Organized Files by Tag</h1>
   {% for tag, files in tag_map.items() %}
     <div class="tag-group">
@@ -27,6 +29,7 @@
       </ul>
     </div>
   {% endfor %}
+{% endraw %}
 </body>
 </html>
 ```
@@ -54,3 +57,6 @@ with open('src/output/final_structure.html', 'w', encoding='utf-8') as f:
 
 print("✅ HTML visualization generated at src/output/final_structure.html")
 ```
+
+---
+[← Home](./index.md) | [⬅ Previous](./3_tag_files.md) | [➡ Next](./5_move_files.md)

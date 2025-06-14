@@ -1,4 +1,6 @@
-## 🛠 Step 1: Setup Lightweight LLM on Raspberry Pi 4
+[← Home](./index.md) | [➡ Next](./2_scan_directory.md)
+
+# 🛠 Step 1: Setup Lightweight LLM on Raspberry Pi 4
 
 Install dependencies:
 
@@ -34,3 +36,5 @@ embedding = model.encode(["दस्तावेज़ नाम"])
 ```
 
 ---
+
+[← Home](./index.md) | [➡ Next](./2_scan_directory.md)

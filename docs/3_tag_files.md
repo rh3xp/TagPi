@@ -22,5 +22,3 @@ df['tag'] = get_clusters(embeddings)
 df.to_csv('src/data/file_index.csv', index=False, encoding='utf-8-sig')
 print("✅ Tags added to src/data/file_index.csv")
 ```
-
----

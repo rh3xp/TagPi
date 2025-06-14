@@ -54,5 +54,3 @@ with open('src/output/final_structure.html', 'w', encoding='utf-8') as f:
 
 print("✅ HTML visualization generated at src/output/final_structure.html")
 ```
-
----
